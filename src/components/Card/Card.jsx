@@ -1,11 +1,10 @@
 import React from 'react';
 import {CardContent, Typography, Grid, Card} from "@material-ui/core";
-import {styles} from './card.module.css'
 
 const Cards = () => {
     return(
         <div >
-            <Grid container spacing={2} justify="center">
+            <Grid container spacing={2} justify="center" className="card">
                 <Grid item component={Card}>
                <CardContent>
                    <Typography color="textSecondary" gutterBottom>Project</Typography>

@@ -1,16 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
-import Card from "./components/Card/Card";
+import Card from "./components/Card/Card"
+import Avatar from "./components/Avatar/Avatar"
 
 function App() {
   return (
     <div className="App">
       <Navbar />
         <div className="grid-container">
-            <Card className="card"></Card>
-            <div className="profile">Profile</div>
+            <Card ></Card>
+            <div className="profile">
+               <Avatar />
+
+            </div>
         </div>
     </div>
   );

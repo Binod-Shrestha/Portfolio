@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/bf299cc9-8502-465b-adc3-c8ebecf90653/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/binod-shrestha",
+    "appService.deploySubpath": "."
+}
